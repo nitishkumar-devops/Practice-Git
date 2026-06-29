@@ -14,3 +14,5 @@
 9. git remote set-url origin https://(your_personal_token_key)@github.com/ nitishkumar-devops/Practice-Git.git  : To set your file in origin using your_personal_token_key and github repository url
  
 10.git push origin master - to push your file local repository to remote repository (like Github)
+
+11. git clone (your_github_repository_url) - your remote github repository to copy your local repository folder
