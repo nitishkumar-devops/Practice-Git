@@ -1,0 +1,8 @@
+# GIT Basic Commands
+
+1. git init - To initialize an empty Git VCS repository
+2. git status - To check the files i.e tracked, staged or Untracked file
+3. git add filename(single file) or for all file(.) - a file change untracked area  into staging area file
+4. git rm --cached <filename> - a file change staging area to untracked area 
+5. git commit -m "message write in present tense + imperative" - a file change staging area to tracked area 
+6. git restore < filename > - when a file into git vcs, you can also recover or rollback your file
