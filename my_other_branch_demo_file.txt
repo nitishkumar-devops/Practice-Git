@@ -1,0 +1,9 @@
+# Git branch and branch strategies
+
+# Git Branch Commands
+
+1. git branch - to check your branch how many branchies
+
+2. git branch < branch_name > or git checkout < branch_name > - To Create your branch
+
+3. git switch < branch_name > - to switch your branch 
