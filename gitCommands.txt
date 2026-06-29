@@ -5,4 +5,12 @@
 3. git add filename(single file) or for all file(.) - a file change untracked area  into staging area file
 4. git rm --cached <filename> - a file change staging area to untracked area 
 5. git commit -m "message write in present tense + imperative" - a file change staging area to tracked area 
-6. git restore < filename > - when a file into git vcs, you can also recover or rollback your file
+6. git restore < filename > - when a file into git vcs, you can also recover or rollback your file 
+
+7. git remote add origin https://github.com/nitishkumar-devops/Practice-Git.git - to add your file remote origin
+
+8. git remote -v : To check your file added or not file in remote
+ 
+9. git remote set-url origin https://(your_personal_token_key)@github.com/ nitishkumar-devops/Practice-Git.git  : To set your file in origin using your_personal_token_key and github repository url
+ 
+10.git push origin master - to push your file local repository to remote repository (like Github)
