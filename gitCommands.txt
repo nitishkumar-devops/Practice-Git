@@ -1,10 +1,15 @@
 # GIT Basic Commands
 
 1. git init - To initialize an empty Git VCS repository
+
 2. git status - To check the files i.e tracked, staged or Untracked file
+
 3. git add filename(single file) or for all file(.) - a file change untracked area  into staging area file
+
 4. git rm --cached <filename> - a file change staging area to untracked area 
+
 5. git commit -m "message write in present tense + imperative" - a file change staging area to tracked area 
+
 6. git restore < filename > - when a file into git vcs, you can also recover or rollback your file 
 
 7. git remote add origin https://github.com/nitishkumar-devops/Practice-Git.git - to add your file remote origin
@@ -13,6 +18,8 @@
  
 9. git remote set-url origin https://(your_personal_token_key)@github.com/ nitishkumar-devops/Practice-Git.git  : To set your file in origin using your_personal_token_key and github repository url
  
-10.git push origin master - to push your file local repository to remote repository (like Github)
+10.git push origin master - To push your code or a file from a local repository to a remote repository (such as GitHub)
 
 11. git clone (your_github_repository_url) - your remote github repository to copy your local repository folder
+
+12. git pull origin master - To pull your code or a file from a remote(GitHub) repository to a local repository
